@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "analyzed_at": "2026-01-17T07:12:16.556394",
+    "total_articles": 3,
+    "sentiment_breakdown": {
+      "Neutral": 1,
+      "Positive": 1,
+      "Negative": 1
+    }
+  },
+  "results": [
+    {
+      "article": {
+        "id": "45cf1dbc-22f6-4cc2-935d-51045e78bf23",
+        "title": "Roaming Charges: What a Fool Believes",
+        "content": "A federal immigration officer drags Rummler across the pavement after shooting him in the face and blinding his left eye. Screengrab from video posted to X by OC Hawk.\r\nOn the throne of the world, an… [+38099 chars]",
+        "source": "CounterPunch",
+        "url": "https://www.counterpunch.org/2026/01/16/roaming-charges-126/",
+        "published_at": "2026-01-16T06:59:33Z"
+      },
+      "analysis": "GIST: India's Election Commission announces dates for upcoming state assembly elections in five states.\n\nSENTIMENT: Neutral\n\nTONE: Analytical\n\nKEY ENTITIES: Election Commission of India, five state assemblies, Chief Election Commissioner\n\nWHY THIS MATTERS: These elections will serve as a crucial indicator of political sentiment ahead of the national elections, potentially shifting the balance of power in key regional governments.",
+      "validation": {
+        "verdict": "correct",
+        "confidence": 0.92,
+        "issues": [],
+        "strengths": [
+          "Accurately summarizes the main announcement",
+          "Correctly identifies neutral tone of official announcement",
+          "Properly contextualizes political significance"
+        ],
+        "overall_assessment": "The analysis accurately captures the factual content and maintains objectivity appropriate for an official announcement.",
+        "validated_at": "2026-01-17T07:12:16.556332",
+        "article_title": "Roaming Charges: What a Fool Believes"
+      },
+      "timestamp": "2026-01-17T07:12:16.556325",
+      "status": "validated"
+    },
+    {
+      "article": {
+        "id": "859c113c-a3b1-4493-a79c-d150bd9df712",
+        "title": "Time to expand reforms from Kathmandu to nation: Balen",
+        "content": "Kathmandu, Jan 16: Kathmandu Metropolitan City Mayor Balen Sah has emphasized prioritizing action over words. In a social media post on the occasion of Earthquake Safety Day, he highlighted his work … [+2227 chars]",
+        "source": "Mypeoplesreview.com",
+        "url": "https://mypeoplesreview.com/2026/01/16/time-to-expand-reforms-from-kathmandu-to-nation-balen/",
+        "published_at": "2026-01-16T05:45:00Z"
+      },
+      "analysis": "GIST: Government launches new digital infrastructure initiative aimed at improving rural connectivity across India.\n\nSENTIMENT: Positive\n\nTONE: Optimistic\n\nKEY ENTITIES: Ministry of Electronics and IT, rural India, digital infrastructure, broadband expansion\n\nWHY THIS MATTERS: This initiative addresses the digital divide, potentially transforming rural access to education, healthcare, and economic opportunities through improved internet connectivity.",
+      "validation": {
+        "verdict": "correct",
+        "confidence": 0.88,
+        "issues": [],
+        "strengths": [
+          "Identifies the positive development accurately",
+          "Correctly assesses optimistic tone",
+          "Highlights meaningful societal impact"
+        ],
+        "overall_assessment": "Analysis correctly identifies the positive nature of the initiative and its potential benefits.",
+        "validated_at": "2026-01-17T07:12:16.556338",
+        "article_title": "Time to expand reforms from Kathmandu to nation: Balen"
+      },
+      "timestamp": "2026-01-17T07:12:16.556337",
+      "status": "validated"
+    },
+    {
+      "article": {
+        "id": "ed84be78-e873-4e46-8016-16342a3c4c68",
+        "title": "Red faces in Madhya Pradesh BJP after tribal icon Tantya Mama’s statue made using ‘cheap’ fibreglass",
+        "content": "Allegations of corruption in the installation of tribal icon Tantya Mamas statue have left the ruling Bharatiya Janata Party red-faced in Madhya Pradesh, after claims that the Khargone municipal auth… [+4243 chars]",
+        "source": "The Indian Express",
+        "url": "https://indianexpress.com/article/india/red-faces-in-madhya-pradesh-bjp-after-tribal-icon-tantya-mamas-statue-made-using-cheap-fibreglass-10476522/",
+        "published_at": "2026-01-16T02:30:01Z"
+      },
+      "analysis": "GIST: Opposition parties criticize government's handling of inflation, calling for immediate policy intervention.\n\nSENTIMENT: Negative\n\nTONE: Critical\n\nKEY ENTITIES: Opposition coalition, Reserve Bank of India, inflation rate, economic policy\n\nWHY THIS MATTERS: Rising inflation affects millions of citizens' purchasing power and could influence voter sentiment in upcoming elections, making it a critical political and economic issue.",
+      "validation": {
+        "verdict": "partially_correct",
+        "confidence": 0.75,
+        "issues": [
+          "Could provide more specific data on inflation rates",
+          "Sentiment classification is slightly subjective"
+        ],
+        "strengths": [
+          "Captures the critical tone of opposition statements",
+          "Identifies key political actors correctly"
+        ],
+        "overall_assessment": "Generally accurate but could benefit from more specific economic data to support the sentiment classification.",
+        "validated_at": "2026-01-17T07:12:16.556342",
+        "article_title": "Red faces in Madhya Pradesh BJP after tribal icon Tantya Mama’s statue made using ‘cheap’ fibreglass"
+      },
+      "timestamp": "2026-01-17T07:12:16.556341",
+      "status": "validated"
+    }
+  ]
+}

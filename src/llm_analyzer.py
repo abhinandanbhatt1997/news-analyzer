@@ -12,21 +12,29 @@ class LLMAnalysisError(Exception):
 def analyze_article(article: dict) -> dict:
     prompt = f"""
 You are a news intelligence analyst.
-Analyze the following news article and return:
-1. A concise summary (3–4 sentences)
-2. Sentiment (Positive / Negative / Neutral)
-3. Key entities mentioned
-4. Why this news matters
+Analyze the following news article and provide:
+
+1. **Gist**: A concise 1-2 sentence summary of the main news
+2. **Sentiment**: Classify as Positive, Negative, or Neutral
+3. **Tone**: Identify the tone (choose one: urgent, analytical, satirical, balanced, alarming, optimistic, critical, neutral)
+4. **Key Entities**: List important people, organizations, or locations mentioned
+5. **Why This Matters**: Brief explanation of significance
 
 Article:
 Title: {article.get("title")}
-Description: {article.get("description")}
+Description: {article.get("description", "N/A")}
 Content: {article.get("content")}
+
+Format your response clearly with these exact headings:
+GIST:
+SENTIMENT:
+TONE:
+KEY ENTITIES:
+WHY THIS MATTERS:
 """
     try:
-        # Try different model name formats
         response = client.models.generate_content(
-            model="models/gemini-2.5-flash",  # Try with full path
+            model="models/gemini-2.0-flash",  # ✅ Updated to available model
             contents=prompt,
             config=types.GenerateContentConfig(
                 temperature=0.3,

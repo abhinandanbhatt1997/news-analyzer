@@ -1,9 +1,9 @@
 # Development Process - News Analyzer
 
-**Project:** Dual-LLM News Analysis with Validation  
-**Developer:** Abhinandan  
-**Date:** January 17, 2026  
-**Tech Stack:** Python 3.12, Google Gemini API, NewsAPI  
+**Project:** Dual-LLM News Analysis with Validation
+**Developer:** Abhinandan
+**Date:** January 17, 2026
+**Tech Stack:** Python 3.12, Google Gemini API, NewsAPI
 
 ---
 
@@ -216,8 +216,8 @@ validation = json.loads(response_text.strip())
 **Null Safety:**
 ```python
 # Handle case where validation failed but analysis succeeded
-correct = sum(1 for r in results 
-              if r.get("validation") and 
+correct = sum(1 for r in results
+              if r.get("validation") and
               r["validation"].get("verdict") == "correct")
 ```
 
@@ -240,7 +240,7 @@ correct = sum(1 for r in results
 
 ## Summary
 - Positive: 0 articles
-- Negative: 0 articles  
+- Negative: 0 articles
 - Neutral: 3 articles
 
 ## Detailed Analysis
@@ -427,3 +427,4 @@ This project demonstrated real-world LLM application development:
 - Documentation helps others understand choices
 
 The dual-LLM validation approach works conceptually. Production would need paid API tiers, caching, and more robust error recovery, but the prototype proves the concept.
+(myenv) abhinandan@Abhinandan:~/news-analyzer$
