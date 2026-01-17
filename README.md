@@ -5,6 +5,8 @@
 **Date:** January 17, 2026
 **Tech Stack:** Python 3.12, Google Gemini API, NewsAPI
 
+This project was built as a take-home assignment to demonstrate LLM pipeline design, iteration, and validation. Due to free-tier API limits, the demo uses mocked LLM responses while preserving the real pipeline structure.
+
 ---
 
 ## Project Overview
